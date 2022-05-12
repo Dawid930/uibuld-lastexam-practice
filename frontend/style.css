@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+}
+
+a{
+text-decoration: none;
+}
+a img {
+border: none;
+}
+
+button,
+a {
+cursor: pointer;
+color: inherit;
+}
+
+textarea {
+resize: none;
+}
+
+button,
+textarea,
+select {
+appearance: none !important;
+border-radius: 0;
+}
+
+
+/* END OF CSS RESET */
+
+/* prim color: #ffeedf */
+/* prim color: #145434 */
+/* font-family: 'Space Grotesk', sans-serif; */
+
+
+body{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#root {
+    display: flex;
+    padding: 50px;
+    flex-flow: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #ffeedf;
+    gap: 60px;
+}
+
+.head {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+    background-color:  #ffeedf;
+    border-bottom: 1px solid #145434;
+    color: #145434;
+    
+}
+
+.head h2 {
+    display: flex;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 36px;
+}
+
+.head span{
+    display: flex;
+    justify-content: right;
+    font-size: 36px;
+    
+}
+
+.beer {
+    display: flex;
+    width: 400px;
+    height: 250px;
+    max-width: 1200px;
+    padding: 30px;
+    justify-content: center;
+    flex-direction: column;
+    
+
+    background-color: #145434;
+    
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    color: #ffeedf;
+}
+
+.number{
+    position: absolute;
+    display: flex;
+    margin-left: -55px;
+    margin-top: -260px;
+    width: 40px;
+    justify-content: center;
+    height: 40px;
+    font-size: 24px;
+    font-family: 'Space Grotesk', sans-serif;
+    border: 1px solid #145434;
+    border-radius: 100px;
+    background-color: #ffeedf;
+    color: #145434;
+}
+
+.title{
+    padding-bottom: 45px;
+    font-size: 36px;
+    border-bottom: 1px solid #ffeedf;
+    font-weight: 400;
+}
+
+.subtitle{
+    padding-top: 5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.text{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-left: 185px;
+    margin-top: 15px;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    font-size: 14px;
+
+    background-color: #ffeedf;
+    border: 2px solid #145434;
+    color: #145434;
+}
+
+.button:hover{
+    background-color: #145434;
+    color: #ffeedf;
+    border-color: #ffeedf;
+}
+
+.button span {
+    position: absolute;
+    right: 0px;
+    font-size: 36px;
+}
+
+/* @media screen and (max-width: 600px) {
+    .button{
+        margin-left: 80px;
+    }
+} */
