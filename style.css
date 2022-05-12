@@ -151,6 +151,12 @@ body{
     color: #145434;
 }
 
+.button:hover{
+    background-color: #145434;
+    color: #ffeedf;
+    border-color: #ffeedf;
+}
+
 .button span {
     position: absolute;
     right: 0px;
