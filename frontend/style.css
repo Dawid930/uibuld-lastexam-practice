@@ -140,7 +140,7 @@ body{
     display: flex;
     align-items: center;
     margin-left: 185px;
-    margin-bottom: -230px;
+    margin-top: 15px;
     justify-content: center;
     width: 200px;
     height: 50px;
@@ -149,6 +149,12 @@ body{
     background-color: #ffeedf;
     border: 2px solid #145434;
     color: #145434;
+}
+
+.button:hover{
+    background-color: #145434;
+    color: #ffeedf;
+    border-color: #ffeedf;
 }
 
 .button span {

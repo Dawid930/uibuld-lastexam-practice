@@ -86,10 +86,12 @@ const loadEvent = async () => {
         <h4 class="subtitle">${x.sub}</h4>
         <p class="text">${x.text}</p>
         <p class="number">${x.number}</p>
-        <div class="button">
-            <button class="button--details">details</button>
-            <span class="material-symbols-outlined">arrow_forward</span>
-        </div>
+        <a href="#">
+            <div class="button">
+                <button class="button--details">details</button>
+                <span class="material-symbols-outlined">arrow_forward</span>
+            </div>
+        </a>
         
     </div>
     `);
