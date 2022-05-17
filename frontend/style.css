@@ -116,7 +116,7 @@ body{
     position: absolute;
     display: flex;
     margin-left: -55px;
-    margin-top: -240px;
+    margin-top: -228px;
     width: 40px;
     justify-content: center;
     align-items: center;
@@ -131,14 +131,14 @@ body{
 
 .title{
     min-height: 150px;
-    padding: 20px 20px 20px 0px;
+    padding: 38px 20px 20px 0px;
     font-size: 36px;
-    margin-top: -20px;
+    margin-top: -38px;
     font-weight: 400;
 }
 
 .subtitle{
-    padding-top: 5px;
+    padding-top: 10px;
     font-size: 18px;
     font-weight: 400;
 
@@ -155,6 +155,7 @@ body{
     display: flex;
     align-items: center;
     right: -20px;
+    bottom: -13px;
     justify-content: center;
     width: 200px;
     height: 50px;
