@@ -44,6 +44,7 @@ body{
     width: 100%;
     max-width: 1200px;
     margin: auto;
+    background-color: #ffeedf;
 }
 
 #root {
@@ -58,6 +59,7 @@ body{
 }
 
 .head {
+    position: fixed;
     display: flex;
     width: 100%;
     height: 60px;
@@ -68,6 +70,7 @@ body{
     background-color:  #ffeedf;
     border-bottom: 1px solid #145434;
     color: #145434;
+    z-index: 1;
     
 }
 
@@ -101,6 +104,13 @@ body{
     color: #ffeedf;
 }
 
+.beer:nth-child(1){
+    margin-top: 70px;
+}
+.beer:nth-child(2){
+    margin-top: 70px;
+}
+
 .number{
     position: absolute;
     display: flex;
@@ -108,6 +118,7 @@ body{
     margin-top: -260px;
     width: 40px;
     justify-content: center;
+    align-items: center;
     height: 40px;
     font-size: 24px;
     font-family: 'Space Grotesk', sans-serif;
